@@ -1,0 +1,109 @@
+body{
+background-image: url(Images/background.jpeg);
+ background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   border-top-style: dashed;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-color: #FC3F1D;
+}
+ul {
+	 list-style-type: circle;
+  margin: 10px;
+  padding: 12px;
+  overflow: hidden;
+  background-color: #FDBBB0;
+  font-family: Brush Script, cursive;
+     font-style: italic;
+  font-size: 35px;
+  font-weight: bold;
+  border-style: solid;
+  border-color:#FC3F1D;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #FC3F1D;
+  text-align: center;
+  font-style: italic;
+  padding: 20px 40px;
+  text-decoration: oblique;
+}
+
+li a:hover:not(.active) {
+  background-color: #F98C7F;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+h1 {
+	text-align: center;
+   text-shadow: 1px 1px #ffff00;
+  color: #ff3300;
+  font-family: Georgia, serif;
+  font-size: 45px;
+   font-style: italic;
+  border: 3px solid red;
+  padding-top: 30px;
+   padding-bottom: 30px;
+   background-image: url(Images/border5.jpeg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+img {
+	border-radius: 50%;
+	float: right;
+	display: block;
+	margin: auto;
+	width: 30%;
+	padding-right: 300px;
+}
+p {
+   font-family: papyrus, fantasy;
+   font-size: 30px;
+   font-weight: bold;
+   color: #ff0000;
+   font-style: oblique;
+   text-shadow: 1px 1px white;
+    padding-left: 70px;
+   padding-right: 30px;
+}
+p1 {
+   font-family: papyrus, fantasy;
+   font-size: 30px;
+   font-weight: bold;
+   color: #ff0000;
+   font-style: oblique;
+   text-shadow: 1px 1px white;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+h2{  
+   font-family: Times new roman, Serif;
+   font-size: 40px;
+   text-shadow: 1px 1px #fdfd9d;
+   text-align: left;
+   text-decoration: underline;
+   font-style: italic;
+   color: #ff3300;
+   margin: 10px;
+   padding-left: 200px;
+}
+h3{  
+   font-family: Times new roman, Serif;
+   font-size: 40px;
+   text-shadow: 1px 1px #fdfd9d;
+   text-align: center;
+   text-decoration: underline;
+   font-style: italic;
+   color: #ff3300;
+   margin: 10px;
+}
